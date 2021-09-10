@@ -194,7 +194,9 @@ export default class YouTube extends Component {
     }
     return (
       <div style={style}>
-        <div ref={this.ref} />
+        <div ref={this.ref}>
+          {this.props.children}
+        </div>
       </div>
     )
   }
