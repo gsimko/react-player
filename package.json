@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "install": "npm run build",
+    "install": "npm run build:lib",
     "clean": "rimraf lib lazy demo coverage *.d.ts",
     "start": "webpack-dev-server --config webpack/config.babel.js",
     "lint": "standard --verbose | snazzy",
